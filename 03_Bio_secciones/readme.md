@@ -1,4 +1,4 @@
-Elementos HTML según HTML5
+Los elementos HTML según HTML5
 
 ## body ## 
 Es el único que no puede estar duplicado, solo hay un body. El resto sí.
@@ -10,6 +10,7 @@ El elemento de HTML Header (<header>) representa un grupo de ayudas introductori
 
 ## nav ##
 The HTML <nav> element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes. 
+
 Dentro va un menú, un menú es una lista de links. Puede ir dentro del header o justo seguido.
 
 ## article ##
@@ -35,7 +36,7 @@ El Elemento HTML Footer (<footer>) representa un pie de página para el contenid
 El elemento HTML <address> aporta información de contacto para su <article> más cercano o ancestro <body>; en el último caso lo aplica a todo el documento.
 
 
-Elementos según versiones más avanzadas de HTML5 (ahora estamos en 5.2)
+Los elementos según versiones más avanzadas de HTML5 (ahora estamos en 5.2)
 
 ## main ##
 El elemento HTML <main>  representa el contenido principal del <body> de un documento o aplicación. El área principal del contenido consiste en el contenido que está directamente relacionado, o se expande sobre el tema central de un documento o la funcionalidad central de una aplicación. Este contenido debe ser único al documento, excluyendo cualquier contenido que se repita a través de un conjunto de documentos como barras laterales, enlaces de navegación, información de derechos de autor, logos del sitio y formularios de búsqueda (a menos, claro, que la función principal del documento sea un formulario de búsqueda).
