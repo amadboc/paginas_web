@@ -1,4 +1,4 @@
-https://www.w3.org/WAI/GL/wiki/Using_HTML5_section_elements#The_.3Csection.3E_Element
+https://www.w3.org/TR/2011/WD-html5-20110525/sections.html
 
 Los elementos HTML según HTML5
 
