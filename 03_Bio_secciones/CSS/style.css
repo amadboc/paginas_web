@@ -1,7 +1,17 @@
+/*Estilos básicos*/
+h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
 /*div {
     background-colour: bisque
 }*/
-
 
 .articulo {
     background-color: bisque;
