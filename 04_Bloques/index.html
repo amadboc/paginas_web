@@ -4,71 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bloque HTML</title>
+    <title>Bloques HTML</title>
 
 <style>
-    .pajaros {
-        list-style: square
-    }
+  .separado {
+      padding-left: 5rem;
+  }
+
+  .h2 {
+       display: block;
+       font-size: 1.5rem;
+   }
+
+ .footer {
+            border-top: 2px solid coral;
+            margin-top: 1rem;
+            padding-top: 1rem;
+        }
+
+.vertebrados {
+    list-style: decimal;
+}
+
+.dialog {
+           display: none;
+        }
+
+.verde {
+            background-color: chartreuse;
+            border: 0px solid;
+        }
+dd, dt  {
+         display: inline;
+        }
 </style>
 </head>
 
 <body>
     <header>
-        <h1>Intro al HTML</h1>
-        <h2>Uso de bloques en HTML</h2>
-        <!-- Esta es dudosamente estandar para definir título y subtítulo -->
+        <h1>Introducción al HTML
+            <span class="h2">Uso de bloques en HTML</span>
+       </h1>
    </header>
-    <nav>
-        <hr>
-    </nav>
-    <main>
-        <article>
-            <h2>Tipos de párrafo</h2>
-            <h3>Tipos de vertebrados</h3>
-            <ul class="vertebrados">   
-                <li>Reptiles
-                    <ol>
-                        <li>Tortugas</li>
-                        <li>Serpientes</li>
-                    </ol>
-                    </li>
-                <li>Aves
-                    <ul>
-                        <li>Rapaces</li>
-                        <li>Pájaros</li>
-                    </ul>
-                    </li>
-                <li>Mamíferos
-                    </li>
-            </ul>
+
+<!--    <header>
+       <h1>Introducción al HTML</h1>
+        <p class="Uso de bloques en HTML"></p>
+    </header> -->
+
+    <!-- Esta es dudosamente estandar para definir título y subtítulo y depende de los autores -->
+<!--     <header>
+        <h1>Introducción al HTML</h1>
+        <h2>Uso de bloques en HTML</h2>
+    </header> -->
+
+ <nav>
+     <hr>
+ </nav>       
+
+<main>
+    <article>
+        <h2>Tipos de párrafo</h2>
+        <pre>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus est adipisci aut saepe voluptatum a, illo praesentium? Quidem tempora reprehenderit, ipsam molestias vitae, consequuntur recusandae, deleniti labore perspiciatis cum corporis.</pre>
+        
+        <p>Numquam 
+            <span class="separado">facilis</span> ipsa excepturi deserunt <br> voluptate, similique veritatis mollitia sequi neque amet 
+            <br> animi unde fugiat. Cum consectetur nihil dolore, possimus 
+            <br> ab error, ducimus neque delectus in optio dolor porro.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, animi nesciunt accusantium sequi nobis saepe, ad nihil ut totam, voluptate repudiandae corrupti voluptates repellat! Laudantium eveniet repellat deserunt omnis iusto!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsa iusto tempore perferendis deserunt omnis id hic repellendus itaque voluptates? Similique rerum exercitationem repudiandae veniam quasi, ducimus nihil recusandae pariatur!</p>
+    </article>
+
+    <article>
+        <h2>Uso de listas</h2>
+        <h3>Tipos de vertebrados</h3>
+        <ol class="Vertebrados">   
+            <li>Peces</li>    
+            <li>Reptiles
+                <ol type="I">
+                    <li>Tortugas</li>
+                    <li>Cocodrilos</li>
+                    <li>Lagartos</li>
+                    <li>Serpientes</li>
+                </ol>
+            </li>
+            <p>Finalmente están los vertebrados más evolucionados</p>
+            <ol start="3">
+            <li>Aves
+                <ul class="Aves">
+                <li>Rapaces</li>
+                <li>Pájaros</li>
+                </ul>
+            </li>
+            <li>Mamíferos</li>
+            </ol>
 
             <h3>Definiciones</h3>
             <dl>
-                <dt>HTML:</dt>
-                <dd>Lenguaje de marcas</dd>
+               <div> 
+                    <dt>HTML:</dt>
+                    <dd>Lenguaje de marcas</dd>
+                </div>    
+                <div> 
                 <dt>CSS:</dt>
-                <dd>Lenguaje de estilos</dd>
-                <dt>JS:</dt>
-                <dd>Lenguaje de script</dd>
+                    <dd>Lenguaje de estilos</dd>
+                </div>
+                <div>   
+                    <dt>JS:</dt>
+                    <dd>Lenguaje de script</dd>
+                </div>   
             </dl>
-        </article>
+    </article>
         
         <article>
             <h2 Desplegables></h2>
-                <details>
-                    <summary>Diseño web</summary>
-                    <p>alskdfj slkdfj lsdkfjlsdk fjslk</p>
-                </details>
-        </article>
-
-        <aside></aside>
+            <details>
+              <summary>Diseño web</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab aspernatur corporis porro culpa perferendis, atque, eos numquam reprehenderit, quasi repellendus hic cupiditate omnis dolores. Odio dolorum possimus tenetur ut.</p>
+           </details>  
+           <dialog open class="verde">
+                <p>Esto es información extra</p>
+                <button>Cerrar</button>
+            </dialog>
+        <button>Más información</button>
+    </article>
     </main>
-    <footer>
+    
+    <aside></aside>
+   
+    <footer class="footer">
             <address> amadboc - maderoana9@gmail.com</address>
             <p>&copy; Panda Rojo 2018</p>
         </footer>
-
-
 </body>
 </html>
