@@ -10,6 +10,7 @@ Navegadores
 Editor de código: VSC
 Git / Github
 NodeJS / npm
+
 Día 2:
 Uso del entorno: repositorio Git
 Servidores Web:
@@ -19,6 +20,7 @@ Elementos de la Web
 Origen y Evolución. Tim Berners-Lee
 Lenguajes: HTML - CSS - JS (ES)
 Navegadores: estructura y funcionamiento
+
 Día 3:
 Conceptos de Comunicaciones:
 Pila TCP / IP
@@ -27,6 +29,7 @@ Protocolo HTTP
 Mensajes de estado. Códigos
 Cabeceras
 Métodos GET, POST (PUT, DELETE, ...)
+
 Día 4: Lenguajes de Marcado
 Orígenes y evolución
 SGML -> HTML / XML
