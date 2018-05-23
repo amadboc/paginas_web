@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bibliografía</title>
+<style>
+    .titulo {
+        color: brown;
+    }
+    [itemprop="titulo"] {
+        color: brown;
+    }
+    </style>
+</head>
+
+<body>
+  <header>
+      <h1>Bibliografía</h1>
+   </header>
+   
+   <article>
+     <!--  Ejemplo microformatos -->
+    <ul>
+        <li class="titulo">El Señor de los Anillos</li>
+        <li class="titulo_orig">Lord of the Rings</li>
+        <li class="fecha_orig">1954</li>
+        <li class="autor">J. R. R. Tolkien</li>
+        <li class="edit_esp">Minotauro</li>
+        <li class="fecha_esp">1980</li>
+        <li class="descrip">El Señor de los Anillos (título original en inglés: The Lord of the Rings) es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien.</li>
+       </ul>
+    
+       <!--  Ejemplo microdatos -->
+       <ul itemscope="Book"
+       itemtype="http://schema.org/Book" itemid="2">
+       <div itemprop="translationOfWork"
+       span itemscope="CreativeWork"
+       itemtype="http://schema.org/CreativeWork"></div>
+       <li class="titulo">The Hobbit</li></class> 
+       
+       <li itemprop="fecha_orig">1937</li>
+
+<!-- El autor no se puede poner así por schema.org-->
+<!-- <li itemprop="author">J. R. R. Tolkien</li>-->            
+        <li span itemscope="person"
+            itemtype="http://schema.org/person">
+            <span interprop="family-name">Tolkien</span>
+            </span></li>
+
+        <li itemprop="edit_esp">Minotauro</li>
+        <li itemprop="fecha_esp">1982</li>
+        <li itemprop="descrip">Relato de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien.</li>
+        </ul>
+ </article> 
+
+  <!--  Todo esto que sigue son microformatos copiados y pegados generados por el hcard creator copiados w3.microformats.org-->
+    <address>
+        <div id="hcard-Ana-I-Madero" class="vcard">
+                <span class="fn n">
+                <span class="given-name">Ana</span>
+                <span class="additional-name">I</span>
+                <span class="family-name">Madero</span>
+                </span>
+        <div class="org">Panda Rojo</div>
+                <a class="email" href="mailto:maderoana9@gmail.com">maderoana9@gmail.com</a>
+        <div class="adr">
+        <div class="street-address">Avda. de las Arcas del Agua, 25</div>
+        <span class="locality">Getafe</span>
+        , 
+        <span class="region">Madrid</span>
+        , 
+        <span class="postal-code">28915</span>
+               
+        <span class="country-name">España</span>
+        </div>
+        <div class="tel">654546546546</div>
+        </div>
+    </address>
+
+<footer>
+    <p><small>&copy;</small>Panda Rojo</p>
+</footer>
+</body>
+</html>
