@@ -1,9 +1,7 @@
 nav ul {
     list-style: none;
 } 
-nav li {
-    display: inline-block;
-}
+nav li {display: inline-block;}
 
 nav a {
     text-decoration: none;
@@ -17,8 +15,15 @@ main p {
     margin-right: 2rem;
 }
 
+main p:first-child {
+    margin-left: 2rem;
+}
+
+main h2~p {
+    background-color: coral;
+}
+
 footer p {
     margin-top: 0;
-    margin-bottom: 0;
-    background-color: aqua;
+    background-color: bisque;
 }

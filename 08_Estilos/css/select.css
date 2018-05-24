@@ -1,16 +1,11 @@
-.art1 h3  {
-    font-size: 1.8rem;
-    font-style: italic;
-    font-weight: bold;
+
+.art1 h3 {
+    color: blue
 }
 
-h3 {color: blue}
-
-/*
 .verde {
-    color: lime
+    text-decoration: underline;
 }
-*/
 
 p.verde {
     color: lime
@@ -18,4 +13,14 @@ p.verde {
 
 h2.verde {
     color: darkgreen;
+}
+
+h3, .verde  {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.marron {
+    color: maroon;
 }

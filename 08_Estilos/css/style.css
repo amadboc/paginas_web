@@ -1,4 +1,8 @@
 @import "extras.css";
 body { background-color: aquamarine}
 
-/*Esto es un comentario*/    
+/*Esto es un comentario*/
+
+p {
+    font-size: 1.5rem;
+}
