@@ -1,0 +1,17 @@
+a {
+    color: crimson
+}
+
+.azul {
+    color: blue
+}
+
+.verde {
+    color: lime
+}
+
+/* el *=todo */
+
+* {
+    border: 1px solid;
+}

@@ -19,9 +19,12 @@ main p:first-child {
     margin-left: 2rem;
 }
 
-main h2~p {
+main h2+p {
     background-color: coral;
 }
+
+main [tittle="Virgilio"]
+{background-color: cyan}
 
 footer p {
     margin-top: 0;
