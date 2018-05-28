@@ -1,36 +1,79 @@
-*{
-    box-sizing: border-box;
-} 
+@import "./reset.css";
 
-* {
-    background-color: bisque
+header {
+    /*min-height: 20vh;*/
+    padding-top: 1rem;
+    padding-bottom: 2rem; 
+    padding-left: 2rem;
+    background-color: maroon;
+    color: bisque;
 }
 
-h1 {
-    font-size: 2rem;
+header h1 {
+    font-size: 2.3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    padding: 1rem 2rem;
+    background-color: bisque;
+    color: maroon;
+}
+
+main {
+    margin: 3rem 10%;
+}
+
+main p {
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+}
+
+main article {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+main aside {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid lightgray;
+    padding-top: 1rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.menu {
-    list-style: none;
+main article ul {
+    margin-left: 2rem;
 }
 
-.articulo {
-    background-color: none;
-    font-size: 1.2rem;
+main aside li {
+    display: inline-block;
 }
 
-.item {
-    font-size: 1rem;
-}
-
-.marron {
-    color: brown;
-
-}
-
-footer p {
-    margin-top: 0;
+main aside a {
+    display: block;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    color: inherit;
     background-color: bisque;
+    color: maroon;
+}
+
+footer {
+    min-height: 20vh;
+    padding-top: 1rem;
+    padding-bottom: 2rem; 
+    padding-left: 2rem;
+    background-color: maroon;
+    color: bisque;
 }
