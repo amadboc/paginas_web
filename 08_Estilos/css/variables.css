@@ -1,0 +1,18 @@
+:root {
+    --color-primary:aquamarine;
+    --color-secundary:darkblue;
+    --aire-basico: 1rem;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--color-secundary);
+}
+
+header h1 {
+    padding: 1rem;
+}
+
+header h1 {
+    padding: calc(var(--aire-basico)*2)
+}

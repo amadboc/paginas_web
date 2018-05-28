@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin:0;
+}
+
+p {
+padding: 1rem;
+margin: 1rem;
+width: 20%;
+border: 0.1rem solid;
+background-color: bisque;
+}
+
+span {
+    /*border: 0rem solid;*/
+    margin: 1rem;
+    padding: 0.8rem;
+    background-color:aquamarine;
+}
+
+div p {
+    width: 30%;
+    height: 5rem;
+    overflow: scroll;
+}

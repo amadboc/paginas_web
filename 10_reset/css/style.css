@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+} 
+
+* {
+    background-color: bisque
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.menu {
+    list-style: none;
+}
+
+.articulo {
+    background-color: none;
+    font-size: 1.2rem;
+}
+
+.item {
+    font-size: 1rem;
+}
+
+.marron {
+    color: brown;
+
+}
+
+footer p {
+    margin-top: 0;
+    background-color: bisque;
+}

@@ -1,0 +1,25 @@
+/*Reset*/
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin:0;
+    paddin:0;
+}
+
+/*layour*/
+
+p {
+    width: calc(calc(100% - calc(1.7*3))/4);
+    float: left;
+    padding: 1.5rem;
+ }
+
+ p:not(:last-child) {
+    margin-right: 2%
+ }
+
+ p:nth-child(odd) {background-color:aquamarine;}
+ p:nth-child(even) {background-color:bisque}
