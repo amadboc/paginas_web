@@ -4,17 +4,21 @@
     box-sizing: border-box;
 }
 
-header h1 {
-    padding: 1rem;
-    margin: 1rem;
-    color:white;
-    font-size: 3rem;
-    text-align: center;
+header {
     background-color: brown;
 }
-nav {
-    background-color: brown
+
+header h1 {
+        padding: 1rem;
+        margin: 1rem;
+        color:white;
+        font-size: 3rem;
+        text-align: center;
 }
+header nav ul {
+    
+}
+
 
 article, nav a, footer{
         padding: 1rem;
