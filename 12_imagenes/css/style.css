@@ -1,0 +1,14 @@
+body {
+    margin: 0%
+}
+
+figure {
+    width: 300px;
+    max-width: 1192px;
+    border: 1px solid;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
