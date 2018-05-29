@@ -12,6 +12,9 @@ header h1 {
     text-align: center;
     background-color: brown;
 }
+nav {
+    background-color: brown
+}
 
 article, nav a, footer{
         padding: 1rem;
@@ -36,7 +39,6 @@ nav a{
     padding: 1rem;
     background-color:blanchedalmond;
     float: left;
-    width: calc (calc(100% - calc(4*3)/4);
-} 
+    } 
 
 
