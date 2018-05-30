@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multimedia</title>
+    
+    <style>
+        div.cam iframe {
+            width: 80%;
+            height: 50vh;
+        }
+        video {
+            width: 40%;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Multimedia en la web</h1>
+    </header>
+<div>
+    <img src="assets/Panda_rojo_1.png" alt="Panda rojo acurrucado">
+</div>
+    
+<div>
+    <h2>Ejemplo de object</h2>
+    <object data="./assets/Gatos.mp4" type="video/mp4"></object>
+</div>
+<div>
+    <h2>Ejemplo de embed</h2>
+    <embed src="./assets/Gatos.mp4" type="">
+</div>
+
+<div>
+    <h2>Ejemplo de iframe</h2>
+    <iframe src="./assets/Gatos.mp4" frameborder="0"></iframe> 
+</div>
+
+<div class="cam">
+    <h2>Ejemplo de iframe</h2>
+    <iframe src="http://www.madrid.org/cs/Satellite?pagename=ComunidadMadrid/Home">
+    </iframe>
+</div>
+<div>
+    <h2>Ejemplo de iframe de youtube</h2>
+    <iframe src="https://www.youtube.com/embed/uT3SBzmDxGk" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+</div>
+<div>
+    <h2>Iframe de video propio</h2>
+    <iframe src="./assets/Gatos.mp4" frameborder="0"></iframe>
+</div>
+
+<div class="video">
+    <h2>Video propio</h2>
+    <video controls src="./assets/Gatos.mp4"></video>
+</div>
+
+<h2>Video propio con etiqueta source</h2>
+<video controls width="600px">
+    <source src="./assets/Gatos.mp4">
+    <source src="../Gatos Y Gaticos.mp4">   
+</video>
+
+</body>
+</html>
